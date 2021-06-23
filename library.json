@@ -1,9 +1,13 @@
-"name": "MattiUtilsLib",
-"version": "1.0.0",
-"description": "Una libreria di Utils x i matti",
-"keywords": "Matti,Utils",
-"repository":
 {
+  "name": "MattiUtilsLib",
+  "version": "1.0.0",
+  "description": "Utils x matti al computer",
+  "keywords": "utils, matti",
+  "repository":
+  {
     "type": "git",
     "url": "https://github.com/GiulioCocconi/MattiUtilsLib.git"
+  },
+  "frameworks": ["arduino", "esp8266-nonos-sdk"],
+  "platforms": "*"
 }
