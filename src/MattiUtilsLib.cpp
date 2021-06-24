@@ -31,3 +31,5 @@ char* beautifyStr(String str) {
   *(result + index) = '\0';
   return result;
 }
+
+char* test() {return "OK!"}
