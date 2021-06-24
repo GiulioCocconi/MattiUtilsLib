@@ -32,4 +32,4 @@ char* beautifyStr(String str) {
   return result;
 }
 
-char* test() {return "OK!"}
+char* test() {return "OK!";}
