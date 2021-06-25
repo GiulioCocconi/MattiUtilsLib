@@ -18,9 +18,9 @@ double mapf(double value, double fromLow, double fromHigh, double toLow, double 
    return (value-fromLow)*(toHigh-toLow)/(fromHigh-fromLow) + toLow;
 }
 
-char* beautifyStr(String str) {
+static char* beautifyStr(String str) {
   int index = 0;
-  char* result = (char*) malloc((str.length() + 1) * sizeof(char));
+  static char* result = (char*) malloc((str.length() + 1) * sizeof(char));
   for (int i = 0; i < str.length(); i++) {
     char ch = str.charAt(i);
     if (ch != '\n' && ch != '\r') {
