@@ -10,4 +10,6 @@ double mapf(double, double, double, double, double);
 char* beautifyStr(String);
 char* test();
 
+double ipo(double x, double y);
+
 #endif
