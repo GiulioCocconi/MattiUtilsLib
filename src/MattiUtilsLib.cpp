@@ -35,4 +35,4 @@ char* beautifyStr(String str) {
 double ipo(double x, double y) {
    return sqrt(x*x + y*y);
 
-char* test() {return "OK!";}
+static char* test() {return "OK!";}
