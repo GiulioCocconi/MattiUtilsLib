@@ -32,4 +32,7 @@ char* beautifyStr(String str) {
   return result;
 }
 
+double ipo(double x, double y) {
+   return sqrt(x*x + y*y);
+
 char* test() {return "OK!";}
