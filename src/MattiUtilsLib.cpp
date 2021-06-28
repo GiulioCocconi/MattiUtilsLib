@@ -18,7 +18,7 @@ double mapf(double value, double fromLow, double fromHigh, double toLow, double 
    return (value-fromLow)*(toHigh-toLow)/(fromHigh-fromLow) + toLow;
 }
 
-static char* beautifyStr(String str) {
+const char* beautifyStr(String str) {
   int index = 0;
   static char* result = (char*) malloc((str.length() + 1) * sizeof(char));
   for (int i = 0; i < str.length(); i++) {
@@ -34,5 +34,6 @@ static char* beautifyStr(String str) {
 
 double ipo(double x, double y) {
    return sqrt(x*x + y*y);
+}
 
-static char* test() {return "OK!";}
+const char* test() {return "OK!";}
